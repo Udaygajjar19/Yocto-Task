@@ -1,0 +1,69 @@
+Upstream-Status: Pending
+
+Index: git/Library_Management_System.c
+===================================================================
+--- git.orig/Library_Management_System.c
++++ git/Library_Management_System.c
+@@ -1,5 +1,4 @@
+ #include <stdio.h>
+-#include <conio.h>
+ #include <stdlib.h>
+ #include <malloc.h>
+ #include <string.h>
+@@ -65,7 +64,7 @@ void greetings(){
+     printf("\t\t\t     *                                      *\n");
+     printf("\t\t\t     ****************************************\n");
+     printf("\n\n\t\t\t             Press any key to continue: ");
+-    getch();
++    getchar();
+ }
+ 
+ void main_menu(){
+@@ -100,7 +99,7 @@ void main_menu(){
+             default:{
+                 printf("\n\t\t\t\t      ...Invalid Option!...\n");
+                 printf("\n\t\t\t\t      Press any key to try again: ");
+-                getch();
++                getchar();
+             }
+         }
+     }while(choice!=4);
+@@ -209,12 +208,12 @@ struct student *book_issue(struct studen
+             }
+             start_lib=delete_book(new_student->id);
+             printf("\n\n\t Press any key to go to the main menu: ");
+-            getch();
++            getchar();
+             system("cls");
+         }else{
+             printf("\n\t\t      ...Invalid Option!...\n");
+             printf("\n\t\t      Press any key to try again: ");
+-            getch();
++            getchar();
+             system("cls");
+         }
+     }
+@@ -283,12 +282,12 @@ struct student *book_return(struct stude
+         }
+         printf("\n\t Thank you! \n\t Do visit again! ");
+         printf("\n\n\t Press any key to go to the main menu: ");
+-        getch();
++        getchar();
+         system("cls");
+     }else{
+         printf("\n\tSorry the book doesn't exist! Please recheck the entered ID");
+         printf("\n\t\t\t\t      Press any key to try again: ");
+-        getch();
++        getchar();
+         system("cls");
+     }
+     return start;
+@@ -309,7 +308,7 @@ void display(struct student *start){
+         ptr=ptr->next;
+     }
+     printf("\n\n\t Press any key to go to the main menu: ");
+-    getch();
++    getchar();
+     system("cls");
+ }
+ 

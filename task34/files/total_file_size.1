@@ -1,0 +1,24 @@
+.\" Manpage for total_file_size
+.TH TOTAL_FILE_SIZE 1 "May 2025" "1.0" "User Commands"
+.SH NAME
+total_file_size \- calculate total size of all regular files in a directory
+.SH SYNOPSIS
+.B total_file_size
+[\fIDIRECTORY\fR]
+.SH DESCRIPTION
+.B total_file_size
+recursively scans the specified directory (or the current directory if none is provided) and calculates the total size in bytes of all regular files.
+.SH OPTIONS
+.TP
+\fIDIRECTORY\fR
+Optional. The directory to scan. Defaults to the current directory if not specified.
+.SH EXAMPLES
+.B
+total_file_size /home/user/data
+.br
+Calculate total size of all regular files inside \fI/home/user/data\fR.
+.SH AUTHOR
+Written by [Bhavik Parekh].
+.SH LICENSE
+MIT License.
+

@@ -1,0 +1,14 @@
+Upstream-Status: Pending
+
+Index: src/helloworld.c
+===================================================================
+--- src.orig/helloworld.c
++++ src/helloworld.c
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main() {
+-    printf("Hello, Yocto!\n")
++    printf("Hello, Yocto!\n");
+     return 0;
+ }
