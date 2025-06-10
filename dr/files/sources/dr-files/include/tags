@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/omrathod/c_program/166857_om_Dennis_Ritchee_Module1_to_8_T005/include/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Dnode	linklist.h	/^}Dnode;$/;"	t	typeref:struct:dnode
+LINKLIST_H	linklist.h	/^#define LINKLIST_H$/;"	d
+MAIN_H	main.h	/^#define MAIN_H$/;"	d
+Node	linklist.h	/^}Node;$/;"	t	typeref:struct:node
+TAKEAWAY_H	takeaway.h	/^#define TAKEAWAY_H$/;"	d
+col	takeaway.h	/^	int32_t row,col;$/;"	m	struct:node	typeref:typename:int32_t
+colList	takeaway.h	/^	node ** colList;$/;"	m	struct:matrix	typeref:typename:node **
+colPtr	takeaway.h	/^	struct node* colPtr;$/;"	m	struct:node	typeref:struct:node *
+cols	takeaway.h	/^	int32_t rows,cols;$/;"	m	struct:matrix	typeref:typename:int32_t
+data	linklist.h	/^	int32_t data;$/;"	m	struct:node	typeref:typename:int32_t
+data	linklist.h	/^      int32_t data;$/;"	m	struct:dnode	typeref:typename:int32_t
+dnode	linklist.h	/^typedef struct dnode{$/;"	s
+matrix	takeaway.h	/^typedef struct matrix{$/;"	s
+matrix	takeaway.h	/^}matrix;$/;"	t	typeref:struct:matrix
+next	linklist.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node *
+next	linklist.h	/^      struct dnode  *next;$/;"	m	struct:dnode	typeref:struct:dnode *
+node	linklist.h	/^typedef struct node{$/;"	s
+node	takeaway.h	/^typedef struct node{$/;"	s
+node	takeaway.h	/^}node;$/;"	t	typeref:struct:node
+prev	linklist.h	/^      struct dnode *prev;$/;"	m	struct:dnode	typeref:struct:dnode *
+row	takeaway.h	/^	int32_t row,col;$/;"	m	struct:node	typeref:typename:int32_t
+rowList	takeaway.h	/^	node ** rowList;$/;"	m	struct:matrix	typeref:typename:node **
+rowPtr	takeaway.h	/^	struct node* rowPtr;$/;"	m	struct:node	typeref:struct:node *
+rows	takeaway.h	/^	int32_t rows,cols;$/;"	m	struct:matrix	typeref:typename:int32_t
+value	takeaway.h	/^	double value;$/;"	m	struct:node	typeref:typename:double
